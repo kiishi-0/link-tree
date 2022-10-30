@@ -34,14 +34,28 @@ const ProfileImage = styled.img`
     width: 100%;
     object-fit: fill;
 `
-
+const Twitter = styled.p`
+    font-size: 16px;
+`
+const Slack = styled(Twitter)`
+    // display: none;
+    position: relative;
+    visibility: hidden;
+    // :after{
+    //     content: 'Slack - ********';
+    //     positon: absolute;
+    //     left: 0;top: 0;
+    // }
+`
 export default function ProfileSection() {
   return (
     <ProfileSectionContainer>
         <ProfilePicDiv>
-            <ProfileImage src={me} />
+            <ProfileImage src={me} id="profile__img" />
         </ProfilePicDiv>
-        <ProfileName>Kiishi</ProfileName>
+        <ProfileName>Kiishi Oyewole</ProfileName>
+        <Twitter>Twitter - kiishioluwa</Twitter>
+        <Slack>Slack - Kiishi</Slack>
     </ProfileSectionContainer>
   )
 }

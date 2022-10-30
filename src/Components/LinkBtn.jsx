@@ -10,6 +10,7 @@ const LinkBtnContainer = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  fle-direction: column;
   text-decoration: none;
   color: #101828;
   font-weight: 500;
@@ -20,7 +21,7 @@ const LinkBtnContainer = styled.a`
 
 export default function LinkBtn(props) {
   return (
-    <LinkBtnContainer href='#'>
+    <LinkBtnContainer href={props.btnLink}>
       {props.text}
     </LinkBtnContainer>
   )
