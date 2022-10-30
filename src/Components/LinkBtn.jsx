@@ -15,6 +15,7 @@ const LinkBtnContainer = styled.a`
   font-weight: 500;
   font-size: 18px;
   margin: 0 0 25px;
+  
 `
 
 export default function LinkBtn(props) {
