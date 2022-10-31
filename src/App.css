@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 100px 0 0;
+  /* padding: 100px 0 0; */
 }
 
 .App-logo {
