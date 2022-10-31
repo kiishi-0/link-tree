@@ -17,7 +17,7 @@ const ProfileSectionContainer = styled.section`
 `
 const ProfilePicDiv = styled.div`
     width: 90px;
-    background: red;
+    background: #EAECF0;
     border-radius: 100%;
     height: 90px;
     overflow: hidden;
