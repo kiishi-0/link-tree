@@ -14,6 +14,9 @@ const FooterContainer = styled.footer`
     @media(max-width: 441px){
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+
     }
 `
 const Btn = styled.a`
@@ -24,6 +27,14 @@ const Btn = styled.a`
     @media(max-width: 850px){
         margin: 20px 0;
         width: 20%;
+    }
+    @media(max-width: 441px){
+        // margin: 20px 0;
+        width: 50%;
+        :nth-child(2){
+            width: 100%; 
+            text-align: left;
+        }
     }
 `
 const BtnImage = styled.img`
